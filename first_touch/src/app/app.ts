@@ -1,8 +1,9 @@
 import { Component, signal } from '@angular/core';
+import { Lable } from './lable/lable';
 
 @Component({
   selector: 'app-root',
-  //imports: [RouterOutlet],
+  imports: [Lable],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
