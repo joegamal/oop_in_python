@@ -2,19 +2,17 @@ import { Component, Signal } from '@angular/core';
 import { Counter } from '../service/counter';
 
 @Component({
-  selector: 'app-lable',
+  selector: 'taskList',
   imports: [],
-  templateUrl: './lable.html',
-  styleUrl: './lable.css',
+  templateUrl: './task-list.html',
+  styleUrl: './task-list.css',
 })
-export class Lable {
+export class TaskList {
   count: Signal<number>;
-  public constructor(public counter: Counter) { 
+  public constructor(public counter: Counter) {
     this.count = counter.count;
   }
-  
-  add(): void {
+  increment(): void {
     this.counter.increment();
   }
-
 }
