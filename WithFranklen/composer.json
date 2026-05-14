@@ -1,0 +1,15 @@
+{
+    "name": "yusufgamal/with-franklen",
+    "autoload": {
+        "psr-4": {
+            "Yusufgamal\\WithFranklen\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "joegamal",
+            "email": "yusufmagamalth@gmail.com"
+        }
+    ],
+    "require": {}
+}
