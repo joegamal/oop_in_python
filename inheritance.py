@@ -10,3 +10,13 @@ class Student(Person):
     def print_age(self):
         #get properties from super()
         print(f"age is {super().age}")
+        return
+    
+    def print_count(self):
+        print(f"count is {super().count}")
+        super().count += 1
+        return
+
+    
+
+    
