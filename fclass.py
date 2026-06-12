@@ -1,5 +1,4 @@
-
-#this is the class syntax
+ #this is the class syntax
 class Person:
     #static field
     count = 0
@@ -19,4 +18,4 @@ class Person:
     def age(self):
         return self.age
     
-    
+
